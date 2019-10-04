@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-03T06:23:23.605</Modified>
+      <Modified>2019-10-04T11:56:22.556</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\UWP.exe">
       <PackagePath>entrypoint\UWP.exe</PackagePath>
-      <Modified>2019-10-03T06:23:23.016</Modified>
+      <Modified>2019-10-04T11:56:21.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -94,15 +94,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\UWP.xr.xml">
       <PackagePath>UWP.xr.xml</PackagePath>
-      <Modified>2019-10-03T04:05:14.739</Modified>
+      <Modified>2019-10-04T10:40:59.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-03T06:23:22.822</Modified>
+      <Modified>2019-10-04T11:56:21.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-03T06:23:22.823</Modified>
+      <Modified>2019-10-04T11:56:21.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\Page2.xbf">
+      <PackagePath>Page2.xbf</PackagePath>
+      <Modified>2019-10-04T11:56:21.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-03T06:16:34.161</Modified>
+      <Modified>2019-10-04T10:37:32.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\Core\UWP.exe">
       <PackagePath>UWP.exe</PackagePath>
-      <Modified>2019-10-03T06:23:23.600</Modified>
+      <Modified>2019-10-04T11:56:22.523</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

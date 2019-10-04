@@ -1,6 +1,7 @@
 ﻿using Notyes;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -34,7 +35,37 @@ namespace UWP
         {
             splitView.IsPaneOpen = !splitView.IsPaneOpen;
 
-            Notyficator.Notify(message: "Hello world\n I'm your computer");
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Confirm_First_Step();
+        }
+
+        async void Confirm_First_Step()
+        {
+            ContentDialog deleteFileDialog = new ContentDialog()
+            {
+                Title = "Подтверждение действия",
+                Content = "Вы действительно хотите Перейти на станицу 2?",
+                PrimaryButtonText = "ОК",
+                SecondaryButtonText = "Отмена",
+                
+            };
+
+            ContentDialogResult result = await deleteFileDialog.ShowAsync();
+
+            if (result == ContentDialogResult.Primary)
+            {
+                header.Text = "Переход осуществлен";
+                Frame.Navigate(typeof(Page2), "Hello");
+            }
+            else if (result == ContentDialogResult.Secondary)
+            {
+                header.Text = "Отмена действия";
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e) =>Notyficator.Notify("CPU", "Hello my user");
     }
 }

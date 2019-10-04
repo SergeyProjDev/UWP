@@ -42,3 +42,8 @@ C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885202160000000.json
+C:\Users\root\Desktop\UWP\UWP\bin\x86\Debug\Page2.xbf
+C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\Page2.g.i.cs
+C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\Page2.g.cs
+C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\Page2.xaml
+C:\Users\root\Desktop\UWP\UWP\obj\x86\Debug\Page2.xbf

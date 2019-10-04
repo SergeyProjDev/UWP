@@ -12,13 +12,32 @@
             <SplitView.Pane>
                 <StackPanel>
                     <TextBlock Text="Выдвижная панель"  FontSize="30" TextAlignment="Center"/>
+                    <Button HorizontalAlignment="Center" Margin="0,50,0,0" Content="Send Notyfication" FontSize="20" Click="Button_Click_1"/>
+                    <ToggleButton HorizontalAlignment="Center" Margin="0,50,0,0" Content="Toggle Btn" FontSize="20"/>
+                    <HyperlinkButton NavigateUri="metanit.com" Content="Перейти на сайт" Foreground="Red"  HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="20"/>
+                    <TextBox PlaceholderText="Hint" TextAlignment="Center" FontSize="20" Margin="0,50,0,0" IsSpellCheckEnabled="False"/>
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>
                 <Grid>
                     <Button Content="Переключить вид" HorizontalAlignment="Center" Click="Button_Click" />
+                    <TextBlock x:Name="header" Height="100" Width="200" Margin="0, 150, 0, 0"/>
                 </Grid>
             </SplitView.Content>
         </SplitView>
+
+        <Button Content="Ok?" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Button.Flyout>
+                <Flyout x:Name="dialogBox">
+                    <Flyout.Content>
+                        <StackPanel>
+                            <TextBlock Text="Подтвердить выбор" />
+                            <Button Click="Button_Click_2" Content="OK" Margin="0 10 0 0" />
+                        </StackPanel>
+                    </Flyout.Content>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
+
     </Grid>
 </Page>
